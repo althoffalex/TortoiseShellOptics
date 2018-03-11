@@ -1,0 +1,66 @@
+/* Universal Styles*/
+html{
+  font-size: 18px;
+  line-height: 1.4;
+  font-family: helvetica;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Section */
+header{
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 31rem;
+  padding-top: 1rem;
+}
+
+nav{
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  margin-top: 1rem;
+}
+nav div{
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+
+
+}
+nav img{
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+.menu ul li{
+  padding-left: 2rem;
+}
+.menu ul{
+  display: flex;
+}
+.container{
+  max-width: 960px;
+  margin: auto;
+}
+.headline{
+  background-color: white;
+  display: inline-block;
+  padding: 0.75rem 5rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.4;
+}
+.headline h1{
+  margin: .67rem 0;
+}
+.flex{
+  display: flex;
+  justify-content: flex-end;
+}
